@@ -1,0 +1,64 @@
+/* src/css/home.css */
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Stylish border color */
+    border-radius: 12px; /* Rounded corners for a modern touch */
+    padding: 20px;
+    max-width: 60%;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background: #fff; /* Optional: background color for better text readability */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .lower__text{
+    width: 70%;
+  }
+  p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text{
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid #fff;
+    animation: typing 1.3s steps(30, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing{
+    from{width: 0;}
+    to{width: 100%;}
+}
+@media (max-width: 768px){
+  .content-container{
+    h1{
+      font-size: 30px;
+    }
+    max-width: 650px;
+    p{
+      font-size: 15px;
+    }
+    
+  }
+}

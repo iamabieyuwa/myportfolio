@@ -1,0 +1,116 @@
+/* src/css/projectSection.css */
+.project-section {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container__container{
+    margin-top: 50px;
+}
+.project-heading {
+    font-size: 2.5rem;
+    margin-bottom: 70px;
+    color: #fff;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    width: 500px;
+    height: 250px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 15px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.project-link {
+    font-size: 1rem;
+    color: #222;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #fff;
+    background-color: inherit;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+.mobile__p{
+    display: none;
+}
+.slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 768px){
+    .mobile__p{
+        display: grid;
+    }
+    .project-image{
+        width: 400px;
+    }
+    .slider-container{
+        width: 120%;
+    }
+}
