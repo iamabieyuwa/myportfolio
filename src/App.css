@@ -2,7 +2,6 @@
   background-color: hsl(0, 3%, 23%);
   -ms-overflow-style: none;  
   scrollbar-width: none;
-  
 }
 :root::-webkit-scrollbar{
   display: none;
@@ -10,7 +9,8 @@
 
 @media (max-width: 768px){
   :root{
-    -ms-overflow-style:initial
+    -ms-overflow-style:initial;
+     scrollbar-width: none;
   }
   :root::-webkit-scrollbar{
     display: flex;

@@ -34,14 +34,14 @@ const ContactForm = () => {
   };
     return (
         <div className="contact-section">
-            <motion.h2
+            <motion.h1
                 className="contact-heading"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeInOut' }}
             >
                 Get in Touch
-            </motion.h2>
+            </motion.h1>
             <motion.form
                 onSubmit={handleSubmit}
                 className="contact-form"

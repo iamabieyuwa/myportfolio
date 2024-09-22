@@ -53,11 +53,11 @@
 @media (max-width: 768px){
   .content-container{
     h1{
-      font-size: 30px;
+      font-size: 23px;
     }
-    max-width: 650px;
+    max-width: 250px;
     p{
-      font-size: 15px;
+      font-size: 10px;
     }
     
   }

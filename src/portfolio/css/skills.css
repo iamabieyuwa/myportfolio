@@ -63,13 +63,21 @@
     color: #555;
     margin-top: 10px;
 }
+@media (max-width: 1024px){
+  .products-grid{
+    gap: 10px;
+  }
+}
 @media (max-width: 768px){
+    .products-heading{
+        font-size: 30px;
+    }
     .products-heading{
         margin-bottom: 13px;
     }
     .product-box{
         padding: 20px;
-        width: 120px;
+        width: 80px;
         height: 100px;
     }
     .products-grid{
@@ -78,5 +86,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
         gap: 20px;
+    }
+    .icon{
+        margin-top: 25px;
     }
 }

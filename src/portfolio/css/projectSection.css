@@ -104,8 +104,12 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 @media (max-width: 768px){
+    .heading{
+        font-size: 25px;
+    }
     .mobile__p{
         display: grid;
+        font-size: 10px;
     }
     .project-image{
         width: 400px;

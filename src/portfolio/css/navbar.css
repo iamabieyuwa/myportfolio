@@ -52,13 +52,13 @@ li a.active:hover::after{
     width: 100%;
 }
 @media (max-width: 768px){
-    .navbar__left{
+    .navbar__container{
         display: none;
     }
 }
 @media (max-width: 1024px) {
-    .header__left{
-        display: none;
+    .navbar__container{
+       display: none;
     }
     
 }

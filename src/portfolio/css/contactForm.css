@@ -69,3 +69,15 @@
     font-size: 0.9rem;
     color: #777;
 }
+@media (max-width: 768px){
+    .contact-heading{
+        font-size: 25px;
+    }
+    .contact-input,
+.contact-textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+}

@@ -43,5 +43,6 @@
     }
     .phone__text{
         display: flex !important;
+        font-size: 14px;
     }
 }

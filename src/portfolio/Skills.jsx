@@ -13,7 +13,7 @@ const Skills = () => {
         { icon: <SiNextdotjs />, name: 'Next.js' },
         { icon: <FaPython />, name: 'Python'},
         { icon: <SiTailwindcss />, name: 'Tailwind CSS' },
-        { icon: <FaGitAlt />, name: 'Git Version Control' },
+        { icon: <FaGitAlt />, name: ' Version Control' },
     ];
 
     const containerVariants = {
